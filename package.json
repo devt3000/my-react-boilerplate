@@ -15,6 +15,9 @@
     "react": "^16.4.2",
     "react-dom": "^16.4.2"
   },
+  "jest": {
+    "setupTestFrameworkScriptFile": "./test/enzyme.setup.js"
+  },
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
